@@ -1,0 +1,43 @@
+/* Body text */
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 16px;  
+  line-height: 1.6;
+  color: #333333;  /* Text color placeholder */
+  background-color: #ffffff; /* Background color placeholder */
+  margin: 0;
+  padding: 1rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* Links */
+a {
+  color: #569F96;  /* Link color placeholder */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #3F746E; /* Link hover/focus color placeholder */
+  text-decoration: underline;
+}
+
+a.active {
+  background-color: #D0E4E2;
+  outline-color: #D0E4E2;
+}
